@@ -176,7 +176,7 @@ main {
 .form__newsletter {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 3px;
 }
 
 .newsletter__sendbtn {
