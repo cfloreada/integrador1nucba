@@ -69,6 +69,10 @@ body {
   padding-bottom: 10px;
 }
 
+.elementos i {
+  color: #fff;
+}
+
 .elementos a {
   font-family: "Haffer-Bold";
   text-decoration: none;
@@ -83,6 +87,7 @@ body {
 .back__form {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .form__login {
@@ -197,21 +202,20 @@ input[type="submit"]:active {
   /* Tablet mediana / máx. 991px */
 }
 
-body {
-  align-items: normal;
-}
-.elementos {
-  max-width: 80%;
-  margin: 0 auto;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.form__login {
-  width: 330px;
-  height: 430px;
-}
-
 @media (max-width: 576px) {
   /* Celular chico / max. 576px */
+  body {
+    align-items: normal;
+  }
+  .elementos {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .form__login {
+    width: 330px;
+    height: 430px;
+  }
 }

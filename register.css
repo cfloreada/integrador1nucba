@@ -84,6 +84,7 @@ body {
 .back__form {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .form__register {
@@ -210,6 +211,29 @@ input[type="submit"]:active {
 
 @media (max-width: 991px) {
   /* Tablet mediana / máx. 991px */
+
+  .back__form {
+    display: flex;
+    flex-direction: row;
+  }
+  .form__register {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 590px;
+    gap: 7px;
+  }
+
+  .form__register h1 {
+    font-size: 20px;
+  }
+
+  .idgenero_opciones {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+  }
 }
 
 @media (max-width: 576px) {
