@@ -186,6 +186,7 @@ input[type="date"] {
 .newsletter {
   display: flex;
   flex-direction: row;
+  word-wrap: break-word;
   align-items: center;
   margin-top: 10px;
   gap: 5px;
@@ -228,11 +229,11 @@ input[type="submit"]:active {
     margin: 0 auto;
     margin-left: 0;
     margin-right: 0;
-    gap: 8px;
+    gap: 14px;
   }
 
   .form__register {
-    width: 350px;
+    width: 325px;
     height: 610px;
   }
 
@@ -249,15 +250,15 @@ input[type="submit"]:active {
   }
 
   input[type="email"] {
-    width: 330px;
+    width: 310px;
   }
 
   input[type="password"] {
-    width: 330px;
+    width: 310px;
   }
 
   input[type="text"] {
-    width: 330px;
+    width: 310px;
   }
 
   .newsletter {
