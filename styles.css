@@ -556,7 +556,7 @@ input[type="email"] {
   .nav__login:hover {
     background-color: var(--blue);
     color: #fff;
-    scale: 110%;
+    transform: scale(0.96);
     transition: all 0.2s ease-in;
   }
 
