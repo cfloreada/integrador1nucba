@@ -207,6 +207,21 @@ input[type="email"] {
   width: 400px;
 }
 
+.benefits__contrato div {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.benefits__contrato p {
+  font-family: "Haffer-Regular", sans-serif;
+  font-size: 13px;
+}
+
+.benefits__contrato i {
+  color: var(--idred);
+}
+
 #company {
   display: flex;
   flex-direction: column;
@@ -254,7 +269,7 @@ input[type="email"] {
   align-items: center;
   text-align: center;
   text-align: center;
-  padding: 30px 20px;
+  padding: 20px 20px;
   background-color: var(--idlightgreen);
   border-radius: 20px;
   height: 200px;
@@ -289,21 +304,6 @@ input[type="email"] {
   margin-top: 10px;
   margin-bottom: 10px;
   gap: 30px;
-}
-
-.benefits__contrato div {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-}
-
-.benefits__contrato p {
-  font-family: "Haffer-Regular", sans-serif;
-  font-size: 13px;
-}
-
-.benefits__contrato i {
-  color: var(--idred);
 }
 
 #plans {
