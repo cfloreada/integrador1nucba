@@ -52,12 +52,37 @@ html {
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(/assets/images/loginbackgr.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.elementos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.elementos a {
+  font-family: "Haffer-Bold";
+  text-decoration: none;
+  color: #fff;
+}
+
+.elementos a:hover {
+  color: var(--idblack);
+  transition: all 0.2s ease-in;
+}
+
+.back__form {
+  display: flex;
+  flex-direction: column;
 }
 
 .form__login {
@@ -74,7 +99,21 @@ body {
   box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
   -webkit-box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
   -moz-box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
+  animation: slide-down 0.5s ease forwards;
+  transform: translateY(-100%);
 }
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .form__login img {
   height: 60px;
 }
@@ -128,12 +167,13 @@ input[type="password"] {
 }
 
 .register__form {
-  font-size: 13px;
+  font-size: 14px;
 }
 
-.form__login a {
+.register__form a {
   font-size: 14px;
   font-family: "Haffer-Bold";
+  color: var(--idblack);
 }
 
 input[type="submit"] {
