@@ -50,7 +50,14 @@ html {
 }
 
 body {
-  background-color: var(--idlightgreen);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/images/registerbackgr.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form__register {
@@ -59,20 +66,24 @@ body {
   align-items: center;
   justify-content: center;
   width: 600px;
-  height: 600px;
+  height: 640px;
   margin: 0 auto;
-  gap: 15px;
-  background-color: var(--grey);
+  gap: 13px;
+  background-color: var(--darkgrey);
   border-radius: 30px;
+  box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
+  -webkit-box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
+  -moz-box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
 }
-
+.form__register img {
+  height: 70px;
+}
 .email {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
 }
-
 input[type="email"] {
   color: var(--idblack);
   background-color: #ffffff;
@@ -82,14 +93,12 @@ input[type="email"] {
   font-size: 14px;
   width: 400px;
 }
-
 .password {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
 }
-
 input[type="password"] {
   color: var(--idblack);
   background-color: #ffffff;
@@ -99,16 +108,14 @@ input[type="password"] {
   font-size: 14px;
   width: 470px;
 }
-
 .name {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
 }
-
 input[type="text"] {
-  color: var(--idblack);
+  border: 1px solid var(--darkgrey);
   background-color: #ffffff;
   border: 1px solid var(--darkgrey);
   padding: 6px;
@@ -116,21 +123,18 @@ input[type="text"] {
   font-size: 14px;
   width: 400px;
 }
-
 .company {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
 }
-
 .birth {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
 }
-
 input[type="date"] {
   color: var(--idblack);
   background-color: #ffffff;
@@ -140,20 +144,17 @@ input[type="date"] {
   font-size: 14px;
   width: 200px;
 }
-
 .idgenero {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
 }
-
 .idgenero_opciones {
   display: flex;
   flex-direction: row;
   gap: 8px;
 }
-
 .newsletter {
   display: flex;
   flex-direction: row;
@@ -161,7 +162,6 @@ input[type="date"] {
   margin-top: 10px;
   gap: 5px;
 }
-
 input[type="submit"] {
   display: flex;
   justify-content: center;
@@ -175,7 +175,6 @@ input[type="submit"] {
   height: 40px;
   cursor: pointer;
 }
-
 input[type="submit"]:active {
   transform: scale(0.96);
 }

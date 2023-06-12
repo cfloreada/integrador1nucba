@@ -180,7 +180,7 @@ main {
 }
 
 .newsletter__sendbtn {
-  width: 120px;
+  width: 140px;
   white-space: normal;
   word-wrap: break-word;
   border: none;
@@ -354,7 +354,7 @@ input[type="email"] {
   flex-direction: row;
   gap: 30px;
   justify-content: space-around;
-  max-width: 80%;
+  max-width: 100%;
   flex: wrap;
 }
 
@@ -362,7 +362,7 @@ input[type="email"] {
   display: flex;
   flex-direction: column;
   width: 300px;
-  height: 470px;
+  height: 440px;
   background-color: #ffff;
   -webkit-box-shadow: 10px 10px 27px -7px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 10px 10px 27px -7px rgba(0, 0, 0, 0.25);
