@@ -45,8 +45,8 @@ html {
   scroll-padding-top: 100px;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -191,4 +191,27 @@ input[type="submit"] {
 }
 input[type="submit"]:active {
   transform: scale(0.96);
+}
+
+@media (max-width: 991px) {
+  /* Tablet mediana / máx. 991px */
+}
+
+body {
+  align-items: normal;
+}
+.elementos {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.form__login {
+  width: 330px;
+  height: 430px;
+}
+
+@media (max-width: 576px) {
+  /* Celular chico / max. 576px */
 }

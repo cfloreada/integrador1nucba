@@ -45,8 +45,8 @@ html {
   scroll-padding-top: 100px;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -91,7 +91,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 490px;
+  width: 540px;
   height: 640px;
   margin: 0 auto;
   gap: 13px;
@@ -102,7 +102,7 @@ body {
   -moz-box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
 }
 .form__register img {
-  height: 70px;
+  height: 50px;
 }
 .email {
   display: flex;
@@ -178,7 +178,8 @@ input[type="date"] {
 }
 .idgenero_opciones {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   gap: 8px;
   font-size: 14px;
 }
@@ -204,4 +205,62 @@ input[type="submit"] {
 }
 input[type="submit"]:active {
   transform: scale(0.96);
+}
+
+@media (max-width: 991px) {
+  /* Tablet mediana / máx. 991px */
+}
+
+@media (max-width: 576px) {
+  /* Celular chico / max. 576px */
+
+  .html {
+    max-width: 1200px;
+  }
+
+  body {
+    align-items: normal;
+  }
+  .elementos {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 8px;
+  }
+
+  .form__register {
+    width: 350px;
+    height: 610px;
+  }
+
+  .form__register h1 {
+    font-size: 20px;
+  }
+
+  .idgenero_opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: wrap;
+    gap: 8px;
+  }
+
+  input[type="email"] {
+    width: 330px;
+  }
+
+  input[type="password"] {
+    width: 330px;
+  }
+
+  input[type="text"] {
+    width: 330px;
+  }
+
+  .newsletter {
+    font-size: 14px;
+  }
 }
