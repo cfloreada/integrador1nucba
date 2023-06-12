@@ -1,0 +1,181 @@
+:root {
+  --idgreen: #29dec7;
+  --idlightgreen: #73e5d2;
+  --idred: #ff6666;
+  --idredresaltado: #e82c2c;
+  --idblack: #272a2f;
+  --grey: #f4f4f4;
+  --darkgrey: #e7e7e7;
+  --darkgreyultra: #43464b;
+  --blue: #244555;
+}
+
+@font-face {
+  font-family: Haffer-Regular;
+  src: url("assets/font/Haffer-Regular.03e4f08c.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Haffer-Bold;
+  src: url("assets/font/Haffer-Bold.ead08b59.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Haffer-Italic;
+  src: url("assets/font/Haffer-RegularItalic.46ef0079.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Haffer-Regular", "Haffer-Bold", "Haffer-Italic", sans-serif;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: var(--idlightgreen);
+}
+
+.form__register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  gap: 15px;
+  background-color: var(--grey);
+  border-radius: 30px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+input[type="email"] {
+  color: var(--idblack);
+  background-color: #ffffff;
+  border: 1px solid var(--darkgrey);
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 400px;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+input[type="password"] {
+  color: var(--idblack);
+  background-color: #ffffff;
+  border: 1px solid var(--darkgrey);
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 470px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+input[type="text"] {
+  color: var(--idblack);
+  background-color: #ffffff;
+  border: 1px solid var(--darkgrey);
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 400px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.birth {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+input[type="date"] {
+  color: var(--idblack);
+  background-color: #ffffff;
+  border: 1px solid var(--darkgrey);
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.idgenero {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.idgenero_opciones {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+input[type="submit"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--idred);
+  border: none;
+  color: #ffff;
+  font-family: "Harref-Bold", sans-serif;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  transform: scale(0.96);
+}

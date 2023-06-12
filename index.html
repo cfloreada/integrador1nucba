@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Integrador 1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="./assets/id_visual/logo_designar.png"
+          alt="logo_proyecto_designar"
+          class="nav__logo"
+        />
+        
+        <div class="links__conteiner">
+          <input type="checkbox" id="toggle-menu"/>
+          <label for="toggle-menu">
+              <div class="menu__desplegable">
+                <div class="icono-menu">
+                  <div class="barra-menu"></div>
+                  <div class="barra-menu"></div>
+                  <div class="barra-menu"></div>
+                </div>
+              </div>
+            </label>
+            <ul class="nav__links">
+              <li><a href="#company__benefits">Soluciones</a></li>
+              <li><a href="#plans">Planes</a></li>
+              <li><a href="#company">Compañía</a></li>
+              <li><a class="nav__login" href="#">Iniciar sesión</a></li>
+            </ul>
+            <div class="overlay"></div>          
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero__info">
+        <h1>Impulsá tu marca al siguiente nivel</h1>
+        <p>
+          <span>Todas tus tareas de diseño en una suscripción mensual.</span>
+          Destacate en el mercado con nuestra creatividad y experiencia.
+        </p>
+      </section>
+      <div class="form">
+        <form class="form__newsletter">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Correo electrónico"
+          />
+          <label for="email"></label>
+          <input
+            type="submit"
+            value="Quiero recibir más información"
+            class="newsletter__sendbtn"
+          />
+        </form>
+      </div>
+      <div class="benefits__contrato">
+        <div>
+          <i class="fa-solid fa-circle-check"></i>
+          <p>Sin límite de tareas</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-circle-check"></i>
+          <p>Resultados en 48hs.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-circle-check"></i>
+          <p>Cancela tu plan cuando lo necesites.</p>
+        </div>
+      </div>
+      <img
+        src="./assets/images/design_team.png"
+        alt="design_team"
+        class="company__imgteam"
+      />
+      <section id="company">
+        <p class="company__presentation">
+          Conectamos a empresas y emprendimientos con talentosos diseñadores,
+          brindando soluciones creativas a medida. Desde logotipos hasta diseños
+          web cautivadores, nuestro equipo está listo para hacer realidad tus
+          ideas. Tu tiempo vale oro, nuestros planes te ofrecen la posibilidad
+          de delegar todas las tareas de diseño que necesites, ajustandonos a tu
+          calendario.
+        </p>
+      </section>
+
+      <section id="company__benefits">
+        <div class="benefits__conteiner">
+          <i class="fa-solid fa-eye"></i>
+          <h2>Branding</h2>
+          <p>
+            Nos enfocamos en realizar un diseño gráfico estratégico para
+            destacar la identidad de tu organización.
+          </p>
+        </div>
+        <div class="benefits__conteiner">
+          <i class="fa-solid fa-hashtag"></i>
+          <h2>Social Media</h2>
+          <p>
+            Aprovecha al máximo el poder de las redes sociales, creamos piezas
+            atractivas para que marques presencia en los canales que vos elijas.
+          </p>
+        </div>
+        <div class="benefits__conteiner">
+          <i class="fi fi-sr-browser"></i>
+          <h2>Diseño web</h2>
+          <p>
+            Con nuestros diseños cautivadores vas a convertir a muchos
+            visitantes de tu sitio web en clientes. Vamos a captar su atención.
+          </p>
+        </div>
+        <div class="benefits__conteiner">
+          <i class="fa-solid fa-hashtag"></i>
+          <h2>Diseño UI/UX</h2>
+          <p>
+            Mejorá la experiencia de usuario con un diseño de vanguardia.
+            Creamos interfaces intuitivas y atractivas para tus aplicaciones y
+            sitios web.
+          </p>
+        </div>
+        <div class="benefits__conteiner">
+          <i class="fi fi-rr-projector"></i>
+          <h2>Presentaciones</h2>
+          <p>
+            Sorprendé con presentaciones que impacten. Destaca tus mensajes y
+            llama la atención de tu audiencia.
+          </p>
+        </div>
+        <div class="benefits__conteiner">
+          <i class="fa-solid fa-print"></i>
+          <h2>Gráfica</h2>
+          <p>
+            Impresiona con materiales impresos de alta calidad, diseñamos desde
+            tarjetas hasta banners en gran escala, lo que vos necesites.
+          </p>
+        </div>
+      </section>
+
+      <section id="plans">
+        <h2>Planes</h2>
+        <div class="plans__box">
+          <div class="plans__conteiners_demo">
+            <h3>Demo</h3>
+            <div class="plans__data">
+              <p>
+                Acordaremos con vos todos los detalles para realizar un proyecto
+                corto de diseño, con hasta 2 entregables. <br />
+                Conocerás a nuestro equipo interdisciplinario y nuestro método
+                de trabajo.
+              </p>
+              <a>Solicitar ahora</a>
+            </div>
+          </div>
+          <div class="plans__conteiners">
+            <h3>Inicio</h3>
+            <div class="plans__data">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-check"></i> Contratación de tres meses
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Acceso a un tablero
+                  exclusivo en comunicación directa con el responsable de tu
+                  equipo de diseño
+                </li>
+                <li><i class="fa-solid fa-check"></i> Tareas ilimitadas</li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Hasta 3 revisiones /
+                  ediciones por envío
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Diseños personalizados con
+                  envío de editables
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Resultados rápidos:
+                  Recibirás los primeros envíos a las 48hs. de generada la
+                  solicitud
+                </li>
+              </ul>
+              <a>Solicitar ahora</a>
+            </div>
+          </div>
+          <div class="plans__conteiners">
+            <h3>Business</h3>
+            <div class="plans__data">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-check"></i> Contratación con fee mensual
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Acceso a un tablero
+                  exclusivo en comunicación directa con el responsable de tu
+                  equipo de diseño
+                </li>
+                <li><i class="fa-solid fa-check"></i> Tareas ilimitadas</li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Revisiones / ediciones
+                  ilimitadas
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Diseños personalizados con
+                  envío de editables
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Resultados rápidos:
+                  Recibirás los primeros envíos a las 48hs. de generada la
+                  solicitud
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> 1 asesoría mensual con tu
+                  responsable del equipo de diseño
+                </li>
+              </ul>
+              <a>Solicitar ahora</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+  
+      <div class="company__info">
+        <img
+          src="./assets/id_visual/Logo proyecto footer.png"
+          alt="designar_logo_footer"
+        />
+        <a href="#company">Conocé nuestro proyecto</a>
+      </div>
+      <div class="servicios">
+        <h3>Soluciones</h3>
+        <a href="#company__benefits">Qué servicios ofrecemos</a>
+      </div>
+      <div class="planes">
+        <h3>Planes</h3>
+        <a href="#plans">Precios</a>
+
+    </footer>
+  </body>
+</html>

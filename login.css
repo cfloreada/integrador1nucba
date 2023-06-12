@@ -1,0 +1,46 @@
+:root {
+  --idgreen: #29dec7;
+  --idlightgreen: #73e5d2;
+  --idred: #ff6666;
+  --idredresaltado: #e82c2c;
+  --idblack: #272a2f;
+  --grey: #f4f4f4;
+  --darkgrey: #e7e7e7;
+  --darkgreyultra: #43464b;
+  --blue: #244555;
+}
+
+@font-face {
+  font-family: Haffer-Regular;
+  src: url("assets/font/Haffer-Regular.03e4f08c.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Haffer-Bold;
+  src: url("assets/font/Haffer-Bold.ead08b59.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Haffer-Italic;
+  src: url("assets/font/Haffer-RegularItalic.46ef0079.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Haffer-Regular", "Haffer-Bold", "Haffer-Italic", sans-serif;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
