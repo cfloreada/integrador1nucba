@@ -91,7 +91,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 600px;
+  width: 490px;
   height: 640px;
   margin: 0 auto;
   gap: 13px;
@@ -117,7 +117,7 @@ input[type="email"] {
   padding: 6px;
   border-radius: 10px;
   font-size: 14px;
-  width: 470px;
+  width: 360px;
 }
 .password {
   display: flex;
@@ -132,7 +132,7 @@ input[type="password"] {
   padding: 6px;
   border-radius: 10px;
   font-size: 14px;
-  width: 470px;
+  width: 360px;
 }
 .name {
   display: flex;
@@ -147,7 +147,7 @@ input[type="text"] {
   padding: 6px;
   border-radius: 10px;
   font-size: 14px;
-  width: 470px;
+  width: 360px;
 }
 .company {
   display: flex;
