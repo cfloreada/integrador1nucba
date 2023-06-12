@@ -52,12 +52,38 @@ html {
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(/assets/images/registerbackgr.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  gap: 7px;
+}
+
+.elementos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+
+.elementos a {
+  font-family: "Haffer-Bold";
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.elementos a:hover {
+  color: var(--idredresaltado);
+  transition: all 0.2s ease-in;
+}
+
+.back__form {
+  display: flex;
+  flex-direction: column;
 }
 
 .form__register {
@@ -91,7 +117,7 @@ input[type="email"] {
   padding: 6px;
   border-radius: 10px;
   font-size: 14px;
-  width: 400px;
+  width: 470px;
 }
 .password {
   display: flex;
@@ -121,7 +147,7 @@ input[type="text"] {
   padding: 6px;
   border-radius: 10px;
   font-size: 14px;
-  width: 400px;
+  width: 470px;
 }
 .company {
   display: flex;
@@ -136,7 +162,7 @@ input[type="text"] {
   align-items: center;
 }
 input[type="date"] {
-  color: var(--idblack);
+  color: var(--darkgreyultra);
   background-color: #ffffff;
   border: 1px solid var(--darkgrey);
   padding: 6px;
@@ -154,6 +180,7 @@ input[type="date"] {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  font-size: 14px;
 }
 .newsletter {
   display: flex;

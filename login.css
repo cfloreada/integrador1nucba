@@ -43,4 +43,112 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/images/loginbackgr.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form__login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+  height: 480px;
+  margin: 0 auto;
+  gap: 15px;
+  background-color: var(--darkgrey);
+  border-radius: 30px;
+  box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
+  -webkit-box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
+  -moz-box-shadow: 8px 7px 0px -3px rgba(39, 42, 47, 1);
+}
+.form__login img {
+  height: 60px;
+}
+
+.form__login h1 {
+  font-family: "Haffer-Bold";
+}
+
+.form__login h2 {
+  font-size: 17px;
+  color: var(--darkgreyultra);
+}
+
+.form__login h2:hover {
+  scale: 110%;
+  cursor: default;
+  color: var(--idredresaltado);
+  transition: all 0.2s ease-in;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+input[type="email"] {
+  color: var(--idblack);
+  background-color: #ffffff;
+  border: 1px solid var(--darkgrey);
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 300px;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+input[type="password"] {
+  color: var(--idblack);
+  background-color: #ffffff;
+  border: 1px solid var(--darkgrey);
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 300px;
+}
+
+.register__form {
+  font-size: 13px;
+}
+
+.form__login a {
+  font-size: 14px;
+  font-family: "Haffer-Bold";
+}
+
+input[type="submit"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--idred);
+  border: none;
+  color: #ffff;
+  font-family: "Harref-Bold", sans-serif;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+}
+input[type="submit"]:active {
+  transform: scale(0.96);
 }

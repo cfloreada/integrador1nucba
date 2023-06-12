@@ -27,82 +27,90 @@
     />
   </head>
   <body>
-    <form class="form__register">
-      <img src="./assets/id_visual/logo_designar.png" alt="logo_Designar" />
-      <h1>Registrate en nuestro sitio</h1>
-      <div class="email">
-        <label for="email"><span>¿Cómo es tu email?</span></label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Introduce tu email."
-        />
+    <div class="elementos">
+      <div class="back__form">
+        <i class="fa-solid fa-arrow-left"></i>
+        <a href="./login.html">Ir atrás.</a>
       </div>
-
-      <div class="password">
-        <label for="password"><span>Crea una contraseña:</span></label>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          placeholder="Debe contener mínimo 8 letras, 1 número y 1 carácter especial."
-        />
-      </div>
-
-      <div class="name">
-        <label for="nombre"><span>¿Cómo quieres que te llamemos?</span></label>
-        <input
-          type="text"
-          name="nombre"
-          id="nombre"
-          placeholder="Introduce tu nombre personal."
-        />
-      </div>
-
-      <div class="company">
-        <label for="company"
-          ><span>Nombre de tu proyecto u organización:</span></label
-        >
-        <input
-          type="text"
-          name="company"
-          id="company"
-          placeholder="Si cuenta con registro, detalla el nombre completo."
-        />
-      </div>
-
-      <div class="birth">
-        <label for="start">Fecha de nacimiento</label>
-
-        <input
-          type="date"
-          id="start"
-          name="trip-start"
-          value="2023-06-11"
-          min="23-01-01"
-        />
-      </div>
-      <div class="idgenero">
-        <span>¿Cuál es tu sexo?</span>
-        <div class="idgenero_opciones">
-          <input type="radio" name="idgenero" id="hombre" />
-          <label for="hombre">Hombre</label>
-          <input type="radio" name="idgenero" id="mujer" />
-          <label for="mujer">Mujer</label>
-          <input type="radio" name="idgenero" id="no_binario" />
-          <label for="no_binario">No binario</label>
-          <input type="radio" name="idgenero" id="otro" />
-          <label for="otro">Otro</label>
-          <input type="radio" name="idgenero" id="no_aclara" />
-          <label for="no_aclara">Prefiero no decirlo</label>
+      <form class="form__register">
+        <img src="./assets/id_visual/logo_designar.png" alt="logo_Designar" />
+        <h1>Registrate en nuestro sitio</h1>
+        <div class="email">
+          <label for="email"><span>¿Cómo es tu email?</span></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Introduce tu email."
+          />
         </div>
-      </div>
-      <div class="newsletter">
-        <input type="checkbox" name="email_newsletter" id="news" />
-        <label for="news">Me gustaría recibir novedades de Designar Ⓡ </label>
-      </div>
-      <input type="submit" value="Registrarte" />
-    </form>
+
+        <div class="password">
+          <label for="password"><span>Crea una contraseña:</span></label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Debe contener mínimo 8 letras, 1 número y 1 carácter especial."
+          />
+        </div>
+
+        <div class="name">
+          <label for="nombre"
+            ><span>¿Cómo quieres que te llamemos?</span></label
+          >
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Introduce tu nombre personal."
+          />
+        </div>
+
+        <div class="company">
+          <label for="company"
+            ><span>Nombre de tu proyecto u organización:</span></label
+          >
+          <input
+            type="text"
+            name="company"
+            id="company"
+            placeholder="Si cuenta con registro, detalla el nombre completo."
+          />
+        </div>
+
+        <div class="birth">
+          <label for="start">Fecha de nacimiento</label>
+
+          <input
+            type="date"
+            id="start"
+            name="trip-start"
+            value="2023-06-11"
+            min="23-01-01"
+          />
+        </div>
+        <div class="idgenero">
+          <span>¿Cuál es tu sexo?</span>
+          <div class="idgenero_opciones">
+            <input type="radio" name="idgenero" id="hombre" />
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="idgenero" id="mujer" />
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="idgenero" id="no_binario" />
+            <label for="no_binario">No binario</label>
+            <input type="radio" name="idgenero" id="otro" />
+            <label for="otro">Otro</label>
+            <input type="radio" name="idgenero" id="no_aclara" />
+            <label for="no_aclara">Prefiero no decirlo</label>
+          </div>
+        </div>
+        <div class="newsletter">
+          <input type="checkbox" name="email_newsletter" id="news" />
+          <label for="news">Me gustaría recibir novedades de Designar Ⓡ </label>
+        </div>
+        <input type="submit" value="Registrarte" />
+      </form>
+    </div>
   </body>
 </html>

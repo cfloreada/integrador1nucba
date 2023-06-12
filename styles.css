@@ -553,6 +553,13 @@ input[type="email"] {
     z-index: 3;
   }
 
+  .nav__login:hover {
+    background-color: var(--blue);
+    color: #fff;
+    scale: 110%;
+    transition: all 0.2s ease-in;
+  }
+
   .menu__desplegable {
     display: block;
     position: absolute;
