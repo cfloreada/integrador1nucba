@@ -354,14 +354,14 @@ input[type="email"] {
   flex-direction: row;
   gap: 30px;
   justify-content: space-around;
-  max-width: 90%;
+  max-width: 80%;
   flex: wrap;
 }
 
 .plans__conteiners {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 300px;
   height: 470px;
   background-color: #ffff;
   -webkit-box-shadow: 10px 10px 27px -7px rgba(0, 0, 0, 0.25);
@@ -626,7 +626,7 @@ input[type="email"] {
   }
 
   .company__imgteam {
-    height: 280px;
+    height: 250px;
   }
 
   .company__info {
