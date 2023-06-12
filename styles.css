@@ -707,13 +707,14 @@ input[type="email"] {
     align-items: left;
     gap: 20px;
     width: 90%;
-    height: 200px;
+    height: 220px;
     padding: 20px 40px;
     margin: 0 auto;
   }
 
   .footer img {
-    width: 60%;
+    height: 35px;
+    width: 156px;
   }
 
   .footer a {
