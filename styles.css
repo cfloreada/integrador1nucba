@@ -314,12 +314,13 @@ input[type="email"] {
   background-position: center;
   background-size: 80%;
   max-width: 80%;
-  padding: 64px;
+  padding: 54px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   gap: 30px;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 @keyframes slide-up {
