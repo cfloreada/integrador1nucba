@@ -623,7 +623,7 @@ input[type="email"] {
   }
 
   .newsletter__sendbtn {
-    width: 130px;
+    width: 120px;
     font-size: 14px;
   }
 
@@ -635,7 +635,7 @@ input[type="email"] {
   }
 
   .company__imgteam {
-    height: 250px;
+    height: 230px;
   }
 
   .company__info {
