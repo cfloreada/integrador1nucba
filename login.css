@@ -50,7 +50,6 @@ html {
 }
 
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,13 +211,13 @@ input[type="submit"]:active {
     background-size: inherit;
   }
   .elementos {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .back__form {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .form__login {
@@ -255,11 +254,16 @@ input[type="submit"]:active {
     margin-top: 0;
   }
   .elementos {
+    margin-top: 0;
     max-width: 85%;
     justify-content: center;
     gap: 10px;
     flex-direction: column;
     padding-bottom: 0;
+  }
+
+  .back__form {
+    margin-top: 0;
   }
 
   .form__login {
