@@ -263,7 +263,7 @@ input[type="submit"]:active {
   .form__register {
     width: 450px;
     height: 550px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 }
 
