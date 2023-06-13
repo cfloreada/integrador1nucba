@@ -364,7 +364,7 @@ input[type="email"] {
   display: flex;
   flex-direction: column;
   width: 300px;
-  height: 440px;
+  height: 720px;
   background-color: #ffff;
   box-shadow: 4px 7px 5px 0px rgba(0, 0, 0, 0.17);
   -webkit-box-shadow: 4px 7px 5px 0px rgba(0, 0, 0, 0.17);
@@ -380,7 +380,7 @@ input[type="email"] {
   display: flex;
   flex-direction: column;
   width: 300px;
-  height: 280px;
+  height: 580px;
   background-color: var(--blue);
   color: #ffff;
   border-radius: 20px;
@@ -421,7 +421,7 @@ input[type="email"] {
 .plans__data {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 700px;
   justify-content: space-between;
   gap: 10px;
 }
@@ -507,7 +507,7 @@ input[type="email"] {
   }
 
   .plans__conteiners {
-    height: 510px;
+    height: 700px;
     align-items: left;
     gap: 10px;
     padding: 15px 15px;
@@ -515,7 +515,7 @@ input[type="email"] {
   }
 
   .plans__data {
-    height: 450px;
+    height: 650px;
   }
 
   .footer {
@@ -526,7 +526,12 @@ input[type="email"] {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 300px;
+    height: 490px;
+  }
+
+  .company__team {
+    max-width: 80%;
+    margin: 0 auto;
   }
 }
 
@@ -703,11 +708,15 @@ input[type="email"] {
   .plans__conteiners {
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 670px;
     align-items: left;
     gap: 10px;
     padding: 15px 20px;
     border: solid var(--grey);
+  }
+
+  .plans__conteiners_demo {
+    height: 530px;
   }
 
   .footer {
