@@ -95,7 +95,6 @@ body {
   justify-content: center;
   width: 540px;
   height: 640px;
-  margin: 0 auto;
   gap: 13px;
   background-color: var(--darkgrey);
   border-radius: 30px;
@@ -281,7 +280,7 @@ input[type="submit"]:active {
   .elementos {
     display: flex;
     justify-content: center;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     margin-left: 0;
     margin-right: 0;
