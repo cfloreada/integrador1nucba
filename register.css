@@ -251,13 +251,13 @@ input[type="submit"]:active {
   }
 
   .elementos {
-    margin-top: 50px;
+    margin-top: 300px;
     justify-content: center;
     align-items: center;
   }
 
   .back__form {
-    margin-top: 50px;
+    margin-top: 300px;
   }
 
   .form__register {
@@ -282,9 +282,14 @@ input[type="submit"]:active {
     justify-content: center;
     max-width: 90%;
     margin: 0 auto;
+    margin-top: 50px;
     margin-left: 0;
     margin-right: 0;
     gap: 14px;
+  }
+
+  .back__form {
+    margin-top: 50px;
   }
 
   .form__register {
