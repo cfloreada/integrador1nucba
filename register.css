@@ -250,9 +250,10 @@ input[type="submit"]:active {
   }
 
   .elementos {
-    margin-top: 300px;
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
 
   .back__form {
