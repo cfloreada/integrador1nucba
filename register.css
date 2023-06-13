@@ -243,7 +243,6 @@ input[type="submit"]:active {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 100px;
     width: 100%;
     background-position: center;
     background-repeat: inherit;
@@ -281,7 +280,6 @@ input[type="submit"]:active {
     display: flex;
     justify-content: center;
     max-width: 90%;
-    margin: 0 auto;
     margin-top: 50px;
     margin-left: 0;
     margin-right: 0;
