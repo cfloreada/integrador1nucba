@@ -535,6 +535,27 @@ input[type="email"] {
   }
 }
 
+@media (max-width: 768px) {
+  /* Celular chico / max. 768px */
+
+  .plans__conteiners {
+    height: 750px;
+  }
+
+  .plans__conteiners_demo {
+    height: 510px;
+  }
+
+  .plans__data {
+    height: 780px;
+  }
+
+  .company__team {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 576px) {
   /* Celular chico / max. 576px */
 
