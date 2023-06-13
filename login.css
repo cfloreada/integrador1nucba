@@ -247,14 +247,14 @@ input[type="submit"]:active {
     align-items: normal;
   }
   .elementos {
-    max-width: 80%;
+    max-width: 85%;
     margin: 0 auto;
-    margin-left: 0;
-    margin-right: 0;
+    gap: 0;
+    flex-direction: row;
   }
 
   .form__login {
-    width: 330px;
+    width: 350px;
     height: 430px;
   }
 }

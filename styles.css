@@ -545,7 +545,7 @@ input[type="email"] {
   }
 
   .plans__conteiners {
-    height: 730px;
+    height: 720px;
   }
 
   .plans__conteiners_demo {
@@ -743,7 +743,11 @@ input[type="email"] {
   }
 
   .plans__conteiners_demo {
-    height: 530px;
+    height: 550px;
+  }
+
+  .plans__data {
+    max-height: 750px;
   }
 
   .footer {

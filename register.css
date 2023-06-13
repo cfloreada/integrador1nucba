@@ -276,7 +276,7 @@ input[type="submit"]:active {
   }
 
   body {
-    align-items: normal;
+    align-items: center;
   }
   .elementos {
     display: flex;
