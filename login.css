@@ -202,6 +202,45 @@ input[type="submit"]:active {
   /* Tablet mediana / máx. 991px */
 }
 
+@media (max-width: 768px) {
+  /* Celular chico / max. 768px */
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 80px;
+  }
+  .elementos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .form__login {
+    width: 300px;
+    max-height: 390px;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .form__login h1 {
+    font-size: 20px;
+  }
+
+  .form__login img {
+    height: 40px;
+  }
+
+  input[type="password"] {
+    width: 250px;
+  }
+
+  input[type="email"] {
+    width: 250px;
+  }
+}
+
 @media (max-width: 576px) {
   /* Celular chico / max. 576px */
   body {

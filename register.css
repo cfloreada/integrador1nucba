@@ -44,6 +44,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
   height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -236,6 +237,37 @@ input[type="submit"]:active {
   }
 }
 
+@media (max-width: 768px) {
+  /* Celular chico / max. 768px */
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: inherit;
+    background-size: cover;
+  }
+
+  .elementos {
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .back__form {
+    margin-top: 300px;
+  }
+
+  .form__register {
+    width: 450px;
+    height: 550px;
+    margin-bottom: 200px;
+  }
+}
+
 @media (max-width: 576px) {
   /* Celular chico / max. 576px */
 
@@ -257,8 +289,8 @@ input[type="submit"]:active {
   }
 
   .form__register {
-    width: 325px;
-    height: 610px;
+    width: 330px;
+    height: 580px;
   }
 
   .form__register h1 {
